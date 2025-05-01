@@ -5,16 +5,16 @@ console.log(
 
 // Exercise 1
 
-const firstName;
+const firstNam = "Shannon";   /*  const declares the variable, 
+but does not assign it a value. Variables cannot be reassigned with a 'const' variable creator.
+Use const for verified variables that should never be re-assigned.*/
 let lastName;
 var age;
 
 
 // Exercise 2
 
-firstName = "Shannon";  /*  const declares the variable, 
-but does not assign it a value. Variables cannot be reassigned with a 'const' variable creator.
-Use const for verified variables that should never be re-assigned.*/
+  
 lastName = "Ashford";
 age = 28;
 
@@ -42,3 +42,5 @@ let author = "Patrick Rothfuss";
 let pageCount = 722;
 let bookmark = 456;
 let hasRead = true;
+
+console.log(`If I had a book, I wouldn't name it - ${title} - and it would be less than ${pageCount} pages.`);
