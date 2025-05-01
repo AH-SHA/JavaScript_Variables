@@ -5,6 +5,40 @@ console.log(
 
 // Exercise 1
 
+const firstName;
+let lastName;
+var age;
+
+
 // Exercise 2
 
+firstName = "Shannon";  /*  const declares the variable, 
+but does not assign it a value. Variables cannot be reassigned with a 'const' variable creator.
+Use const for verified variables that should never be re-assigned.*/
+lastName = "Ashford";
+age = 28;
+
 // Exercise 3
+
+let language = "JavaScript";
+let createdYear = 1995;
+let isCaseSensitive = true;
+
+console.log(`The lanaguage is ${language} created in ${createdYear}`);
+
+// Exercise 4
+
+let price = 19.99;
+let isOnSale = false;
+let salePercentage = 15;
+let stock = 0;
+let inStock = false;
+let selectedSize = "M";
+
+
+// Exercise 5
+let title = "Name of the Wind";
+let author = "Patrick Rothfuss";
+let pageCount = 722;
+let bookmark = 456;
+let hasRead = true;
